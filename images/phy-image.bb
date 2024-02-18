@@ -1,0 +1,12 @@
+require recipes-core/images/core-image-minimal.bb
+#IMAGE_INSTALL += "mystatic-dev mystatic-staticdev"
+#IMAGE_INSTALL += "hello"
+#IMAGE_INSTALL += "calci"      
+#IMAGE_INSTALL += "calculator"   
+#IMAGE_INSTALL += "auto-hello"
+#IMAGE_INSTALL += "auto-calci"
+#IMAGE_FEATURES = "splash debug-tweaks"
+#IMAGE_FEATURES += "phy-linux"
+#IMAGE_INSTALL += "hello"
+#IMAGE_INSTALL += "myappend"
+IMAGE_FEATURES = "ssh-server-dropbear debug-tweaks splash tools-debug tools-sdk"
