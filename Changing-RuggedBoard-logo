@@ -1,0 +1,15 @@
+CHANGING LOGO NAME RUGGED BOARD A5D2X:
+======================================
+
+->Install figlet(sudo apt-get install figlet)
+->Give figlet NAME in terminal and give any name what you want to add.
+->Copy that displayed name from the terminal.
+->goto rugged terminal.
+->goto etc folder (cd /etc/)
+->In etc goto issue (vi issue)
+->Paste that copied name.
+->And then goto ssh (cd /etc/ssh/).
+->In ssh goto sshd_config (vi sshd_config).
+->And uncomment that #Banner /etc/issue/.
+->save and cd.
+->And reboot.
